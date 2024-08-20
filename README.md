@@ -18,12 +18,15 @@ This script automates the process of installing a proxy certificate and configur
 
 ## Usage
 
-1. **Save the script**: Save the script to a file with a `.sh` extension (e.g., `setup_certificate_and_proxy.sh`).
+1. **Insert the Certificate Content**: 
+   - Open the script file and replace the placeholder in the `CERTIFICATE_CONTENT` variable with your actual certificate content. The content should be in the format of a PEM-encoded certificate, including the `-----BEGIN CERTIFICATE-----` and `-----END CERTIFICATE-----` lines.
 
-2. **Make the script executable** (optional):
+2. **Save the script**: Save the script to a file with a `.sh` extension (e.g., `setup_certificate_and_proxy.sh`).
+
+3. **Make the script executable** (optional):
    ```bash
    chmod +x setup_certificate_and_proxy.sh
-
+   
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.   
